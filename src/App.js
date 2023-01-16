@@ -12,6 +12,7 @@ function App() {
       <div className="App bg-primary overflow-hidden">
         <Header></Header>
          <div className="content my-24">
+          <Home/>
             <Switch>
               <Route exact path="/">
                 <Home />
