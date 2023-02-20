@@ -4,30 +4,18 @@ import Header from './header';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/projects';
-import About from './pages/About';
 
 function App() {
   return (
-    <Router>
-      <div className="App bg-primary overflow-hidden">
+
+      <div className="App overflow-hidden pb-[15vh] bg-[#0d1117] px-[5vh] lg:px-[30vh]">
         <Header></Header>
-         <div className="content my-24">
-          
-            <Switch>
-              <Route exact path="/">
-                <Home />
-              </Route>
-              <Route path="/projects">
-                <Projects />
-              </Route>
-              <Route path="/About"> 
-                <About />
-              </Route>
-            </Switch>
+         <div className="content h-full">
+           <Home/>
+            <Projects/>
          </div>
       </div>
 
-    </Router>
   );
 }
 

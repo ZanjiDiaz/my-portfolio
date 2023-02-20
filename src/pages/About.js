@@ -6,7 +6,7 @@ function About (){
         <div className="Container">
            <div className="flex items-center justify-center text-center h-screen">
            
-
+            
            
         
           </div>

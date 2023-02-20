@@ -5,8 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      textColor:{
+        'txtColor':'#232320',
+      },
       fontFamily:{
-        SairaReg: ['Saira Condensed', 'sans-serif'],
+        Poppins: ['Poppins', 'sans-serif'],
       },
       backgroundColor:{
         'primary': '#111111',
@@ -33,7 +36,7 @@ module.exports = {
             'background-position': 'right center',
           },
         },
-       
+      
       },
       
     },
